@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .main {
+    margin-top: 100px;
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+  }
+  .main h1{
+    font-family: B Titr;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .main h3{
+    font-family: dana;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 10px;
+    
+  }
+  .main img {
+    width: 110px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+  }
+  form {
+    padding: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+    bottom: 180px;
+  }
+  form input {
+    margin-top: 120px;
+    width: 96%;
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: -7px;
+    font-family: dana;
+  }
+  form .phone {
+    width: 22px;
+    position: relative;
+    top: 184px;
+    right: 110px;
+  }
+  form .password {
+    width: 25px;
+    position: relative;
+    bottom: 86px;
+    right: 114px;
+  }
+  .input2 {
+    width: 96%;
+    margin-top: 20px;
+    color: black;
+  }
+  .BTN-1 {
+    width: 100%;
+    height: 38px;
+    background-color: rgb(8, 137, 118);
+    border-radius: 10px;
+    margin-left: -10px;
+    position: relative;
+    bottom: 40px;
+    color: #fff;
+    font-size: 0.7rem;
+    border: none;
+    margin-top: 50px;
+    font-family: dana;
+    font-size: 1.3rem;
+  }
+
+
+  .BTN-1:hover {
+    background-color: #fff;
+    transition: 0.5s ease;
+    color: rgb(255, 255, 255);
+    background-color: rgb(3, 103, 108);
+    cursor: pointer;
+  }
+
+  
+  a {
+    text-align: center;
+    display: block;
+    margin-left: -20px;
+    margin-top: -30px;
+    color: rgb(8, 105, 92);
+    text-decoration: none;
+  }
+  
+  .point {
+    text-align: center;
+    margin-left: -30px;
+    margin-top: 40px;
+    color: red;
+  }
+  
+  /*  respansiuve */
+  @media (max-width: 320px) {
+    .main {
+      position: relative;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+  }
+  

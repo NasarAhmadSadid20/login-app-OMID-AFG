@@ -21,7 +21,7 @@
   }
   .main h1{
     font-family: B Titr;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-top: 10px;
     text-align: center;
   }
@@ -70,7 +70,7 @@
     right: 114px;
   }
   .input2 {
-    width: 96%;
+    width: 95%;
     margin-top: 20px;
     color: black;
   }
@@ -83,7 +83,7 @@
     position: relative;
     bottom: 40px;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     border: none;
     margin-top: 50px;
     font-family: dana;
